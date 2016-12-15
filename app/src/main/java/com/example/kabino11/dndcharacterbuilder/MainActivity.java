@@ -459,6 +459,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case CLASS_REQUEST:
                 player.ClearSkills();
+
+                if(encounterSelected != null) {
+                    player.removePower(encounterSelected);
+                    encounterSelected = null;
+                }
+
+                if(dailySelected != null) {
+                    player.removePower(dailySelected);
+                    dailySelected = null;
+                }
+
+                for(PowerAbility power : atWillsSelected) {
+                    player.removePower(power);
+                }
+
+                atWillsSelected = new ArrayList<>();
+
                 player.setMyClass(dndClassFactory.getPlayerClass(data.getStringExtra("CLASS")));
                 break;
             case RACE_REQUEST:
