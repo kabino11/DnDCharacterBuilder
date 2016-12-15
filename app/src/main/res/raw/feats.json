@@ -1,0 +1,141 @@
+[
+  {
+    "name":"Enlarged Dragon Breath",
+    "benefit":"When you use the dragon breath power, you can choose to make it blast 5 instead of blast 3",
+    "special":"",
+    "prereq":"Race:Dragonborn",
+    "abil_granted":[]
+  },
+  {
+    "name":"Avandra’s Rescue [Divinity]",
+    "benefit":"You can invoke the power of your deity to use Avandra’s rescue.",
+    "special":"",
+    "prereq":"Passive:Channel Divinity,Worships:Avandra",
+    "abil_granted":[
+      {
+        "name":"Channel Divinity: Avandra’s Rescue",
+        "pclass":"Feat",
+        "level":1,
+        "dmgType":"Divine",
+        "pwrType":"Encounter",
+        "acnType":"Move Action",
+        "range":"Melee 1",
+        "target":"One ally",
+        "special":"You must take the Avandra’s Rescue feat to use this power.",
+        "effect":"Shift into the space of an adjacent ally; that ally simultaneously shifts into your space. Your space and your ally’s space must be the same size.",
+        "rollVS":"",
+        "hit":"",
+        "miss":"",
+        "upgrade":""
+      }
+    ]
+  },
+  {
+    "name":"Backstabber [Rogue]",
+    "benefit":"",
+    "special":"The extra damage dice from your Sneak Attack class feature increase from d6s to d8s",
+    "prereq":"Class:Rogue,Passive:Sneak Attack",
+    "abil_granted":[]
+  },
+  {
+    "name":"Blade Opportunist",
+    "benefit":"You gain a +2 bonus to opportunity attack rolls with a heavy blade or a light blade.",
+    "special":"",
+    "prereq":"STR:13,DEX:13",
+    "abil_granted":[]
+  },
+  {
+    "name":"Burning Blizzard",
+    "benefit":"You gain a +1 feat bonus to damage rolls when you use a power that has the acid or the cold keyword.",
+    "special":"At 11th level, this bonus increases to +2. At 21st level, it increases to +3.",
+    "prereq":"INT:13,WIS:13",
+    "abil_granted":[]
+  },
+  {
+    "name":"Combat Reflexes",
+    "benefit":"You gain a +1 bonus to opportunity attack rolls.",
+    "special":"",
+    "prereq":"DEX:13",
+    "abil_granted":[]
+  },
+  {
+    "name":"Corellon’s Grace [Divinity]",
+    "benefit":"You can invoke the power of your deity to use Corellon’s grace.",
+    "special":"",
+    "prereq":"Passive:Channel Divinity,Worships:Corellon",
+    "abil_granted":[
+      {
+        "name":"Channel Divinity: Corellon’s Grace",
+        "pclass":"Feat",
+        "level":1,
+        "dmgType":"Divine",
+        "pwrType":"Encounter",
+        "acnType":"Immediate Interrupt",
+        "range":"Personal",
+        "target":"Self",
+        "special":"You must take the Corellon's Grace feat to use this power.  Trigger: A creature within 10 squares of you spends an action point to take an extra action",
+        "effect":"You take a move action.",
+        "rollVS":"",
+        "hit":"",
+        "miss":"",
+        "upgrade":""
+      }
+    ]
+  },
+  {
+    "name":"Dark Fury",
+    "benefit":"You gain a +1 feat bonus to damage rolls when you use a power that has the necrotic or the psychic keyword.",
+    "special":"At 11th level, this bonus increases to +2. At 21st level, it increases to +3.",
+    "prereq":"CON:13,WIS:13",
+    "abil_granted":[]
+  },
+  {
+    "name":"Defensive Mobility",
+    "benefit":"You gain a +2 bonus to AC against opportunity attacks.",
+    "special":"",
+    "prereq":"",
+    "abil_granted":[]
+  },
+  {
+    "name":"Distracting Shield [Fighter]",
+    "benefit":"If you hit a foe with an attack granted by your Combat Challenge class feature, the target takes a –2 penalty to attack rolls until the start of your next turn.",
+    "special":"You must have a shield equipped to benefit from this feat.",
+    "prereq":"WIS:15,Class:Fighter,Passive:Combat Challenge",
+    "abil_granted":[]
+  },
+  {
+    "name":"Dodge Giants [Dwarf]",
+    "benefit":"You gain a +1 bonus to AC and Reflex defense against the attacks of Large or larger foes.",
+    "special":"",
+    "prereq":"Race:Dwarf",
+    "abil_granted":[]
+  },
+  {
+    "name":"Dragonborn Frenzy [Dragonborn]",
+    "benefit":"While you are bloodied, you gain a +2 bonus to damage rolls.",
+    "special":"",
+    "prereq":"Race:Dragonborn",
+    "abil_granted":[]
+  },
+  {
+    "name":"Dragonborn Senses [Dragonborn]",
+    "benefit":"You gain low-light vision. You also gain a +1 feat bonus to Perception checks.",
+    "special":"",
+    "prereq":"Race:Dragonborn",
+    "abil_granted":[]
+  },
+  {
+    "name":"Durable",
+    "benefit":"Increase your number of healing surges by two.",
+    "special":"",
+    "prereq":"",
+    "abil_granted":[]
+  },
+  {
+    "name":"Dwarven Weapon Training [Dwarf]",
+    "benefit":"You gain proficiency and a +2 feat bonus to damage rolls with axes and hammers.",
+    "special":"",
+    "prereq":"Race:Dwarf",
+    "abil_granted":[]
+  }
+]

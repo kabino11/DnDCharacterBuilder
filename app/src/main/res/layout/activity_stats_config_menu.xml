@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_stats_config_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kabino11.dndcharacterbuilder.StatsConfigMenu">
+
+    <TextView
+        android:text="STR:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stats_str"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/stats_str_spin"
+        android:layout_toStartOf="@+id/stats_str_spin" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stats_str_spin"
+        android:layout_alignTop="@+id/stats_str"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stats_con_spin"
+        android:layout_alignTop="@+id/stats_con_view"
+        android:layout_alignLeft="@+id/stats_str_spin"
+        android:layout_alignStart="@+id/stats_str_spin" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/stats_int_view"
+        android:layout_alignLeft="@+id/stats_dex_spin"
+        android:layout_alignStart="@+id/stats_dex_spin"
+        android:id="@+id/stats_int_spin" />
+
+    <TextView
+        android:text="DEX:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/stats_dex_view"
+        android:layout_below="@+id/stats_con_spin"
+        android:layout_alignLeft="@+id/stats_con_view"
+        android:layout_alignStart="@+id/stats_con_view" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stats_dex_spin"
+        android:layout_alignTop="@+id/stats_dex_view"
+        android:layout_alignLeft="@+id/stats_con_spin"
+        android:layout_alignStart="@+id/stats_con_spin" />
+
+    <TextView
+        android:text="INT:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/stats_int_view"
+        android:layout_below="@+id/stats_dex_spin"
+        android:layout_alignLeft="@+id/stats_dex_view"
+        android:layout_alignStart="@+id/stats_dex_view" />
+
+    <TextView
+        android:text="WIS:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stats_int_spin"
+        android:layout_alignLeft="@+id/stats_int_view"
+        android:layout_alignStart="@+id/stats_int_view"
+        android:layout_marginTop="17dp"
+        android:id="@+id/stats_wis_view" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/stats_wis_view"
+        android:layout_alignLeft="@+id/stats_int_spin"
+        android:layout_alignStart="@+id/stats_int_spin"
+        android:id="@+id/stats_wis_spin" />
+
+    <TextView
+        android:text="CON:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stats_con_view"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/stats_str_spin"
+        android:layout_alignLeft="@+id/stats_str"
+        android:layout_alignStart="@+id/stats_str" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/stats_cha_view"
+        android:layout_alignLeft="@+id/stats_wis_spin"
+        android:layout_alignStart="@+id/stats_wis_spin"
+        android:id="@+id/stats_cha_spin" />
+
+    <TextView
+        android:text="CHA:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stats_cha_view"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/stats_wis_spin"
+        android:layout_alignLeft="@+id/stats_wis_view"
+        android:layout_alignStart="@+id/stats_wis_view" />
+
+    <Button
+        android:text="Finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/stats_done_button" />
+</RelativeLayout>
